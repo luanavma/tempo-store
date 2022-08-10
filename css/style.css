@@ -1,0 +1,82 @@
+/* Página dos items */
+
+.moon {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 2fr;
+  margin: 60px;
+}
+
+.descricao {
+  grid-column: 2;
+}
+
+/* ESTILOS GERAIS */
+
+body {
+  font-family: "Segoe UI";
+  background-color: rgb(255, 255, 255);
+  color: rgb(100, 42, 65);
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Segoe UI";
+  color: rgb(240, 144, 181);
+}
+
+h2 {
+  margin-top: 0px;
+  font-family: "Segoe UI";
+  font-size: 25px;
+  color: rgb(100, 42, 65);
+}
+
+.comprar {
+  background-color: rgb(240, 144, 181);
+  color: rgb(51, 0, 7);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.item {
+  background: #ffd4e6;
+  border: 1px solid #ffe2eb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+.img {
+  align-content: center;
+  border-radius: 4px;
+}
+
+.logo {
+  display: grid;
+  padding: 6px;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.topo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 800px;
+}
+
+.cake {
+  text-decoration: none;
+  color: rgb(100, 42, 65);
+}
